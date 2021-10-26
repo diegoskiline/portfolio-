@@ -28,7 +28,7 @@
     <div class="menu02">
 <div><h1 class="titulomeunome">Hi, I am<br>Diego Murilo</h1><br><span class="nomecinza">Frontend Developer</span></div>
 <div>
-    <button class="botaoverde">Download CV</button>
+    <button  class="botaoverde">Download CV</button>
     <button class="botaopreto">Learn More</button>
 </div>
 </div>
@@ -100,24 +100,33 @@
 
     <div><h1 class="ultimotitulo">Get in touch</h1></div>
 
-    <form action="/pagina-processa-dados-do-form" method="post">
-        <div>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" />
+    <form action="">
+        <div class="display-flex">
+            <div class="width-50 spacing-2">
+                <input class="input-custom" type="text" placeholder="Name">
+            </div>
+            <div class="width-50">
+                <input class="input-custom" type="text" placeholder="Last name">
+            </div>
         </div>
-        <div>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" />
+        <div class="display-flex">
+            <div class="width-50 spacing-2">
+                <input class="input-custom" type="email" placeholder="Email">
+            </div>
+            <div class="width-50">
+                <input class="input-custom" type="text" placeholder="Phone number">
+            </div>
         </div>
-        <div>
-            <label for="msg">Mensagem:</label>
-            <textarea id="msg"></textarea>
+        <div class="display-flex">
+            <textarea class="textarea-custom" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
         </div>
-        <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
+        <div class="center">
+            <button class="button">Submit now</button>
         </div>
     </form>
 
+
+    <h6 class="copy">© Diego 2021</h6>
     
 
 
